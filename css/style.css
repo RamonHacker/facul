@@ -1,0 +1,343 @@
+
+/*footer
+.container-fluid{
+    background-color: #fdf9f4;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+*/
+
+/*2 parte*/
+.imag-contente {
+    display: flex;
+    padding-top: 3rem;
+    padding: 7rem 12rem 2rem 12rem;
+    background-color: #FDF9F4;
+}
+.parte {
+    flex: 1;
+    padding: 20px;
+}
+
+.img-2{
+    width: 90%;
+    height: auto;
+    padding-left: 4%;
+    background-image: #FDF9F4;
+    background-color: #FDF9F4;
+}
+
+.list-p{
+    text-transform: uppercase;
+    font-size: 1rem; 
+    font-family: Inter, sans-serif;
+}
+
+h2{
+    text-transform: uppercase;
+    font-size: 2.6rem;
+    font-family: "Lora", serif;
+}
+
+.button[data-v-527ce04f] {
+    background-color: #1576d1;
+    border-radius: 6px;
+    color:white;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Inter", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: -.02rem;
+    line-height: 2.8rem;
+    padding: 10px 18px;
+    margin-top: 2rem;
+    position: relative;
+    text-decoration: none;
+}
+
+/**/
+
+
+.text-cen{
+    text-align: left;
+    padding: 0rem 18% ;
+    
+}
+
+.text-ce{
+    text-align: left;
+    padding: 0rem 18% ;
+    margin: 13rem;
+    
+}
+.text-seg{
+    margin: 8rem 0rem 3rem ;
+    font-family: "Lora", serif;
+
+}
+
+.text-p{
+    font-size: 1.4rem;
+    font-family: Inter, sans-serif;
+
+}
+
+/**/
+.card-img-baixo{
+    margin-top: 15rem;
+    align-items: end;
+    justify-self:end;
+    align-items: flex-end;
+    
+}
+.card-img-baix{
+    margin-top: 5rem;
+}
+.card-img-lado{
+    border-bottom-right-radius: 8%;
+    margin-left: 5rem ;
+}
+
+.text-img{
+    font-family: Inter, sans-serif;
+    padding-top: 1rem;
+    font-size: 1.3rem;
+
+}
+
+.h2-img{
+    font-family: "Lora", serif;
+    text-transform: none;
+    padding-top: 6rem;
+    font-size: 3rem;
+}
+
+
+.box-container {
+    display: flex;
+    padding: 3rem 8rem 1rem 8rem; 
+    gap: 4rem; 
+}
+
+.box {
+    border-radius: 10%;
+    background-color: #e8f2f9;
+    padding: 0rem 5rem 0rem ;
+    text-align: center;
+    position:relative;
+}
+
+.box img {
+    max-width: 100%;
+}
+/**/
+
+/*inicio da p das article img*/
+.text-Card{
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    text-align: left;    
+}
+
+.text-car{
+    font-size: 4rem;
+    font-family: "Lora", serif;
+}
+
+.text-ca{
+    margin-top: 3rem;
+    font-size: 1.3rem;
+    font-family: Inter, sans-serif;
+
+}
+
+/*fim da p das article img*/
+
+/*inicio carrocel*/
+.carroseul {
+    width: 100%; 
+    display: flex;
+    white-space: nowrap;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 0;
+    position: relative;
+    margin-top: 7rem;
+}
+
+.horizontal-scroll-wrapper {
+    margin-left: 6rem;
+    scroll-snap-align: start;
+    overflow-x: hidden;
+    white-space: nowrap;
+    position: relative;
+    height: 35vw;
+    min-height: 30rem;
+
+}
+
+.coll {
+    min-width: 320px;
+    height: 94%;
+    display: inline-block;
+    font-size: 1.5rem;
+    flex: 0 0 auto;
+    background-color: #F8f3EE;
+    border-radius: 5%;
+    padding: 13rem 5rem 0rem 5rem;
+    margin: 1rem 1rem;
+    scroll-snap-stop: always;
+    position: relative; 
+    overflow: hidden;
+    
+}
+
+.horizontal-scroll-wrapper{
+    overflow: hidden;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: flex-end; /* Alinha na parte inferior */
+    height: 100%; /* Ocupa toda a altura da div .coll */
+}
+
+.scroll-page{
+    position: absolute;
+}
+
+.carroseu-im{
+   margin-left: -2rem;
+   margin-top: -3.5rem ;
+}
+.carroseu-i{
+    margin-top: 2rem;
+    margin-left: -1rem;
+
+}
+.text-carroseil{
+   
+    position: absolute;
+    margin-top: 1.6rem ;
+    font-size: 1.2rem;
+    top: 0; /* Posiciona no topo */
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translateX(-50%); /* Centraliza horizontalmente */
+    font-family: "Lora", serif;
+    text-transform: uppercase;
+
+}
+
+.scroll-buttons {
+    position: absolute;
+    top: -3rem;
+    left: 10rem;
+    right: 0;
+    display: flex;
+    justify-content: left;
+    padding: 40px;
+    margin-top: -3rem ;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.prev-button,
+.next-button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 0 3rem;
+}
+
+
+/*Fim do carrocel*/
+
+
+@media (min-width: 768px) {
+    .carroseul {
+        width: 100%; 
+        display: flex;
+        white-space: nowrap;
+        justify-content: center;
+        align-items: flex-end;
+        margin: 0;
+        position: relative;
+        margin-top: 7rem;
+       
+    }
+    
+    .horizontal-scroll-wrapper {
+        margin-left: 6rem;
+        scroll-snap-align: start;
+        overflow-x: hidden;
+        white-space: nowrap;
+        position: relative;
+        height: 35vw;
+    
+    }
+    
+    .coll {
+        min-width: 320px;
+        height: 94%;
+        display: inline-block;
+        font-size: 1.5rem;
+        flex: 0 0 auto;
+        background-color: #F8f3EE;
+        border-radius: 5%;
+        padding: 13rem 5rem 0rem 5rem;
+        margin: 1rem 1rem;
+        scroll-snap-stop: always;
+        position: relative; 
+        overflow: hidden;
+    }
+    
+    .horizontal-scroll-wrapper{
+        overflow: hidden;
+    }
+    
+    .image-container {
+        display: flex;
+        justify-content: center; /* Centraliza horizontalmente */
+        align-items: flex-end; /* Alinha na parte inferior */
+        height: 100%; /* Ocupa toda a altura da div .coll */
+    }
+    
+    .scroll-page{
+        position: absolute;
+    }
+    
+    
+    .carroseu-im{
+       margin-left: -2rem;
+       margin-top: -3.5rem ;
+    }
+    .carroseu-i{
+        margin-top: 2rem;
+        margin-left: -1rem;
+    
+    }
+    
+    .scroll-buttons {
+        position: absolute;
+        top: -3rem;
+        left: 10rem;
+        right: 0;
+        display: flex;
+        justify-content: left;
+        padding: 40px;
+        margin-top: -3rem ;
+        background-color: rgba(255, 255, 255, 0.8);
+    }
+    
+    .prev-button,
+    .next-button {
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+        padding: 0 3rem;
+    }

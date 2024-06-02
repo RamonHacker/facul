@@ -1,0 +1,139 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.app-container {
+    display: flex;
+    height: 100%;
+    background-color: #F3F5F7;
+    position: relative;
+}
+
+.flex-container {
+    position:absolute;
+    margin: 4rem;
+    width: 90%;
+    height: 90%;
+    display: flex;    
+    background-color: #F3F5F7;
+}
+
+/*container*/
+.container-cont{
+    border-radius: 10px;
+    width: 70%;
+    background-color: #FFFFFF;
+}
+
+.container-arg h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Lora", serif;
+    margin: 2rem 0;
+}
+
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/*fim do container*/
+
+/*inicio da de progresso*/
+.container-progress{
+    display: flex;
+    background-color: #F3F5F7;
+    padding: 0 1rem;
+    margin: 0 1rem 0 11rem;
+    border: 2pix solid black;
+}
+
+.progres-texto{
+    margin-top: 3rem;
+    font-family:Roboto, sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.te{
+    font-size: 20px;
+    padding-top: 0.9rem;
+}
+
+.te-color{
+    color: #A4B1BF;
+}
+
+.progres{
+    width: 0.4rem;
+    margin-top: 3rem;
+    margin-right: 1rem;
+    background-color: #D6DDE3;
+    border-radius: 3px;
+}
+
+.progres-bar{    
+    height: 100%;
+    width: 100%;
+    background-color: #4caf50;
+    border-radius: 4px;
+}
+/*fim da de progresso*/
+
+/* Estilos CSS para o formulário */
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.input-group {
+    display: flex;
+    gap: 10px; /* Espaçamento entre os campos */
+}
+.input-item {
+    flex: 1; /* Distribui igualmente o espaço entre os campos */
+}
+
+form {
+    margin-left: 10%;
+    position:relative;
+    width: 90%;
+}
+
+
+.button[data-v-527ce04f] {
+    background-color: #1576d1;
+    border-radius: 6px;
+    color:white;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Inter", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: -.02rem;
+    line-height: 2.8rem;
+    padding: 0px 18px;
+    position: relative;
+    text-decoration: none;
+    margin-left: 35%;
+}
+
+/* Centraliza o formulário na página */
